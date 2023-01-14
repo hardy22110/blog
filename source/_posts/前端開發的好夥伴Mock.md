@@ -1,6 +1,6 @@
 ---
 title: 前端開發的好夥伴Mock API
-date: 2022-11-20 12:04:19
+date: 2023-01-01 12:04:19
 categories:
   - Front-end
 tags:
@@ -13,7 +13,9 @@ tags:
 ![](https://i.imgur.com/dNaZ6oK.jpg)
 
 <div style="text-align: center">
-    <a href="https://blog.codecentric.de/mock-service-worker-einfach-backends-mocken">原圖取自：Andreas Houben</a>
+    <a href="https://blog.codecentric.de/mock-service-worker-einfach-backends-mocken">
+    原圖取自：Andreas Houben
+    </a>
 </div>
 
 ---
@@ -56,20 +58,31 @@ tags:
 - 製作各個情境的 Mock 資料
 
 ### 3. 區分 API 環境
-- 透過設定參數區分各個API環境(ex. 正式環境, 開發環境)
+
+- 透過設定參數區分各個 API 環境(ex. 正式環境, 開發環境)
 
 ### 4. 呼叫 Mock API
+
+- 依據開發或是測試呼叫已建立的 Mock API
+- 取到的 Mock 資料ＦＦＦＦＦＦＦＦＦ
 
 ---
 
 ## Mock API 注意事項
 
-- ### 建置 Mock API 不花太多時間
-- ### 利用 Mock API 測試哪些情境
-- ###
+### 建置 Mock API 不花太多時間
+
+建置 Mock API 主要是讓前端對於串接 API 與資料可以直接模擬出來產生到畫面上，且可以根據不同情境模擬出不同資料，例如常見的無資料有資料最大資料，
+所以花太多時間寫邏輯或是產複雜數據都是本末倒至，應把時間花在串接雨畫面呈現上。
+
+### 確認 Mock API 測試不同情境
+
+### 呼叫 Mock API 不該與實際上 API 一起呼叫
+
+### 擬真 Mock API 也是無法百分之百達到
 
 ---
 
 ## Mock API 方式
 
-
+---
